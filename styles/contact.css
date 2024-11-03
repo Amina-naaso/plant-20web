@@ -1,0 +1,142 @@
+ @media (max-width:600px) {
+    .image{
+        width:300px;
+     height:250px;
+        border-radius: 50% 50% 0 0 ;
+     
+      margin-left:0px;
+     padding-left: 0px;
+      margin-top: -50px;
+    }
+    .container form h1{
+      width: 80%;
+    }
+}
+ /* <__________________________________________________> */
+ .sectio{
+    height:50vh;
+    background-color: #f5f5f5;
+    color: black;
+}
+.sectio .begin{
+    margin-bottom: -100px;
+text-align: center;
+}
+.sectio .begin h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.sectio .begin p{
+    font-size: 16px;
+}
+/* <____________________________________________-> */
+form{
+   max-width:580px;
+   
+}
+.container{
+    padding-top: 100px;
+}
+.container form h1{
+    width: 100%;
+   margin-bottom:10px;
+   text-transform: capitalize;
+   background-image: linear-gradient(to left,var(--main), var(--sub));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   
+   margin-left: 30px;
+}
+.box1 {
+   background-color: #fff;
+}
+
+.input-box{
+ min-width: 240px;
+   position: relative;
+}
+
+.input-box input,
+.input-box textarea{
+   width: 100%;
+   border-width: 0 0 2px 0 ;
+   border-color:rgb(223, 220, 220);
+   outline: none;
+   padding: 10px;
+   position: static;
+}
+
+.box1 input:focus {
+   border-color:var(--main) ;
+}
+
+.input-box label{
+   position: absolute;
+   top: 8px;
+   left: 8px;
+    pointer-events: none;
+   user-select: none; 
+   transition: 0.5s;
+} 
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label,
+.input-box textarea:focus ~ label,
+.input-box textarea:valid ~ label{
+   top: -17px;
+   color: var(--main);
+   /* transform: translateX(10px) translateY(-7px) ; */
+}
+.image{
+    width:500px;
+ height:550px;
+    border-radius: 50% 50% 0 0 ;
+  
+  margin-left:60px;
+  
+  margin-top: -50px;
+}
+.bttnn{
+    padding-bottom: 20px;
+}
+.btnc{
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: var(--main) !important;
+    color: #fff !important;
+   border-color: var(--main);
+}
+/* <________________________________________________________________________> */4
+.all{
+   
+min-height: 60vh;
+}
+.contact .cart3{
+    background-color: #f5f5f5;
+    text-align: center;
+    border-radius: 20px;
+width: 350px;
+    margin: 100px 0;
+}
+.cart3 i{
+margin-top: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--main);
+    color: var(--sub);
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+.cart3 .fa{
+}
+.cart3 h3{
+    padding-bottom: 8px;
+}
+.cart3 p{
+    margin-bottom: 90px;
+    color: rgb(105, 104, 104);
+}
+center iframe{
+    width: 100%;
+
+}

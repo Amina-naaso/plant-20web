@@ -1,0 +1,260 @@
+.sectio{
+    height:50vh;
+    background-color: #f5f5f5;
+}
+.sectio .begin{
+    margin-bottom: -100px;
+text-align: center;
+}
+.sectio .begin h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.sectio .begin p{
+    font-size: 16px;
+}
+/* <_______________________________________________________________________> */
+section .count{
+    width: 100%;
+    
+    padding-top:40px;
+}
+
+
+section {
+    min-height: 80vh;
+
+}
+section .count img{
+    width:450px;
+    height:450px;
+     border-radius: 50%;
+ }
+
+section .scol{
+    max-width:660px;
+    max-height: 550px;
+    margin-left: 15px;
+}
+section .scol{
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+section .scol h1{
+font-size: 48px;
+margin:14px 0 20px 0;
+}
+section .scol p{
+    font-size: 16.5px;
+    margin-bottom: 40px;
+}
+section .scol .green{
+    border-radius: 20px;
+    text-align: start;
+    padding: 30px 0;
+    max-width: 600px;
+   max-height: 220px;}
+
+section .scol .green p{
+    color: var(--sub);
+    font-size: 35px;
+    font-weight: 750;
+    text-align: start;
+   padding-top:10px;
+   margin-bottom: -40;
+}
+section .scol .green h4{
+    margin-top: -30px;
+    color: #ffffff;
+    margin-bottom: 10px;
+
+}
+.green .border{
+    border-right: 1px solid #fff !important;
+    padding-right:50px;
+    padding-left: 20px;
+}
+.itali{
+    padding-top: 45px;
+font-family: myfont;
+font-size: 20px;
+
+}
+@font-face {
+    font-family: myfont;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+/* <___________________________________________________________________________> */
+.vision{
+    min-height: 100vh;
+background-color:#f5f5f5;
+width: 100%;
+position: relative;
+}
+
+.vision .boxx{
+background-color: #fff;
+margin-top: 40px;
+border-radius: 10px;
+padding:30px 20px;
+width:40% ;    
+                            
+
+}
+.element{
+    position: relative;
+   
+}
+.vision .h1{
+    margin-bottom: 10px;
+
+}
+.vision i{
+    background-color: var(--sub);
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 6px;
+    margin-bottom: 13px;
+}
+.vision p{
+    line-height: 24px;
+}
+.vision .text{
+    display: flex;
+}
+.vision  img{
+  max-width: 1300px;
+   height:650px;
+border-radius: 10px;
+  margin-top: 40px;
+ margin-bottom:90px;
+}
+.greenn{
+  
+     text-align: start;
+     padding-bottom:28px;
+     padding-top: 18px;
+     position:absolute;
+   bottom:20px;
+    right: 130px;
+    flex-wrap: wrap;
+     
+    }
+    
+    .greenn{
+        width: 920px;
+        min-height: 150px;
+        border-radius: 15px;
+   
+
+
+}
+
+.greenn p{
+    color: var(--sub);
+    font-size: 35px;
+    font-weight: 750;
+    text-align: start;
+   padding-top:10px;
+   line-height: 50px;
+}
+.greenn .border{
+    border-right: 1px solid #fff;
+    padding-right:70px;
+    padding-left: 20px;
+}
+.greenn .borderl{
+    padding-right:70px;
+    padding-left: 20px;
+}
+
+.greenn h4{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+/* <________________________________________________________> */
+main{
+  min-height:100vh;
+  
+}
+
+.cart img{
+    width: 300px;
+    height: 335px;
+ 
+}
+main .team{
+    padding-top: 100px;
+    text-align: center;
+}
+main .team p{
+    padding: 6px 0;
+    color: rgb(76, 74, 74);
+    font-size: 20px;
+}
+    main .team h1{
+        line-height: 50px;
+font-size: 40px;
+
+    }
+    main .team .bading{
+        padding-bottom: 50px;
+    }
+    .cart h2{
+        padding: 10px 0;
+    }
+    .cart p{
+        color: rgb(93, 91, 91);
+        font-size: 16px;
+        
+    }
+    /* <_________________________________________________________> */
+    .client{
+       min-height: 80vh;
+        width: 100%;
+        background-color:#f5f5f5;
+    }
+    .card2{
+        width: 500px;
+        background-color: #fff;
+        padding: 28px;
+        border-radius: 10px;
+        margin-bottom:20px;
+    }
+    .card2 .star i{
+        padding-right: 8px ;
+        color: var(--sub);
+    }
+    .card2 img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .card2 h2{
+        padding: 18px 0;
+    }
+    .card2 .pp{
+        line-height: 22px;
+      padding-bottom: 30px;
+    }
+    .card2 .mm{
+        margin-top: -10px;
+    }
+    .card2 .mm .lastp{
+        margin-top: -10px;
+        font-size: 16px;
+        color: rgb(125, 127, 129);
+    }
+    .heading h4{
+        padding: 70px 0 10px 0;
+    }
+    .heading h1{
+        padding-bottom: 50px;
+        font-size: 40px;
+        text-transform: capitalize;
+    }

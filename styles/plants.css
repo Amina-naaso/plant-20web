@@ -1,0 +1,97 @@
+.sectio{
+    height:50vh;
+    background-color: #f5f5f5;
+}
+.sectio .begin{
+    margin-bottom: -100px;
+text-align: center;
+}
+.sectio .begin h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.sectio .begin p{
+    font-size: 16px;
+}
+/* <________________________________________________________________> */
+.flexcrd1{
+    min-height: 100vh;
+margin-top: 100px;
+
+ }
+.flexcrd1 .ppp{
+    color: rgb(140, 137, 137);
+font-size: 18px;
+font-weight: 500;
+}
+.block .f-bet i{
+    margin-right:7px;
+    font-size: 15px;
+}
+.block{
+position: relative;
+display: inline-block;
+}
+ .block::before{
+    content: attr(data-discount);
+    background-color:var(--main);
+    color:#fff;
+    padding:7px 10px;
+    font-size: 17px;
+    display: block;
+    width: 70px;
+text-align: center;
+border-radius:20px;
+position: absolute;
+top:15px;
+left:15px;
+}
+.icon i{
+  margin: 8px 0;
+ background-color: #fff;
+ color:black !important;
+ border-radius: 50%; 
+ padding:9px;
+}
+.icon{
+    position: absolute;
+    top: 24%;
+    left: 87%;
+    transform: translate(-50%,-50%);
+    display: none;
+    font-size:19px;
+ 
+}
+.block:hover .icon{
+    display: block;
+}
+
+ .crd{
+     padding: 0  0px 0 100px ;
+ }
+ .flexcrd2 img{
+     width: 300px;
+     height: 300px;
+ }
+ 
+ .abov{
+     padding: 15px 0 35px 0;
+ }
+ .abov h1{
+     font-size: 45px;
+ }
+ .block img{
+     border-radius: 20px;
+     display: block;
+ }
+ .block h2{
+     font-size: 17px;
+     padding-bottom: 8px;
+ }
+ .block .ppp{
+     margin-left: 20px;
+ }
+ 
+ .block i{
+     color: var(--sub);
+ }
